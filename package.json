@@ -3,14 +3,7 @@
     "name": "startbootstrap-full-width-pics",
     "version": "5.0.2",
     "scripts": {
-        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
-        "build:assets": "node scripts/build-assets.js",
-        "build:pug": "node scripts/build-pug.js",
-        "build:scripts": "node scripts/build-scripts.js",
-        "build:scss": "node scripts/build-scss.js",
-        "clean": "node scripts/clean.js",
-        "start": "node index.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+        "start": "node index.js"
     },
     "description": "A HTML template featuring sections with full width image backgrounds built with Bootstrap",
     "keywords": [
