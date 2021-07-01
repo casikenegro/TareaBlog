@@ -3,7 +3,7 @@
     "name": "startbootstrap-full-width-pics",
     "version": "5.0.2",
     "scripts": {
-        "start": "node index.js"
+        "start": "node app.js"
     },
     "description": "A HTML template featuring sections with full width image backgrounds built with Bootstrap",
     "keywords": [
