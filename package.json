@@ -3,7 +3,8 @@
     "name": "startbootstrap-full-width-pics",
     "version": "5.0.2",
     "scripts": {
-        "start": "node app.js"
+        "start": "node app.js",
+        "dev": "nodemon app.js"
     },
     "description": "A HTML template featuring sections with full width image backgrounds built with Bootstrap",
     "keywords": [
@@ -30,8 +31,10 @@
     },
     "dependencies": {
         "bootstrap": "5.0.2",
+        "cors": "^2.8.5",
         "dotenv": "^10.0.0",
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "nodemon": "^2.0.13"
     },
     "devDependencies": {
         "autoprefixer": "10.2.6",
